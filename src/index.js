@@ -13,8 +13,8 @@ const store = createStore(manageUsers)
 
 
 ReactDOM.render(
-
-  <App />
-  <Provider>,
+  <Provider>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
