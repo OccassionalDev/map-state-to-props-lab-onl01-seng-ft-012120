@@ -45,7 +45,7 @@ class UserInput extends Component {
 }
 
 const mapStateToProps = (state) => {
-  return {}
+  return { users: state.users }
 }
 
 export default connect()(UserInput);
