@@ -13,9 +13,9 @@ const store = createStore(manageUsers)
 
 
 ReactDOM.render(
-  // add imports and code
+
   <App />
-  // add imports and code
+
   ,
   document.getElementById('root')
 );
