@@ -9,6 +9,7 @@ import App from './App'
 
 
 // add imports and code
+const store = createStore(manageUsers)
 
 
 ReactDOM.render(
