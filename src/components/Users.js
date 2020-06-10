@@ -13,7 +13,7 @@ class Users extends Component {
           { users }
           {/* In addition, display the total number of users curently in the store */}
         </ul>
-        <p>Total Number of users: { }</p>
+        <p>Total Number of users: { this.props.numberOfUsers }</p>
       </div>
     )
   }
