@@ -48,4 +48,4 @@ const mapStateToProps = (state) => {
   return { users: state.users }
 }
 
-export default connect()(UserInput);
+export default connect(mapStateToProps)(UserInput);
